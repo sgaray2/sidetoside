@@ -1,0 +1,102 @@
+/* header menu */
+.header_menu, .navbar-nav, .nav-link{
+  padding: 10px 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+.navbar{
+  height: 120px;
+}
+
+.nav-link:hover{
+  color: grey;
+}
+
+.cart_count{
+  position: absolute;
+    top: 50px;
+    right: 20px;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    margin-right: -22px;
+    margin-top: -5px;
+    transition: all 0.5s ease-in;
+}
+
+/* mostrar labels en forma horizontal */
+.nav-item{
+  list-style: none;
+  color: #000;
+}
+
+/* mostrar iconos en forma horizontal */
+#icons {
+   display: flex;
+   color: #000;
+   padding-left: 0px;
+}
+
+
+.logo{
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+/* quitar recuadro en boton */
+.navbar-toggler:focus{
+  outline: none;
+}
+
+/* banner section */
+.banner-section{
+  background-color: #d63447;
+  min-height: 400px;
+}
+
+.sale-img{
+  height: 550px;
+}
+
+.banner{
+  padding-left: 0px;
+}
+
+.sale{
+  background-color: #000;
+  padding: 12px 30px;
+  font-size: 15px;
+}
+
+.btn-info{
+  background-color: #000;
+  border-color: #000;
+}
+#sale-btn: hover {
+  background-color: black;
+}
+
+.banner-text{
+  margin-top: 110px;
+  font-size: 18px;
+  padding: 12px 30px;
+  letter-spacing: 4px;
+}
+
+.text-sale{
+  right: 40px;
+  font-family: "Roboto";
+
+}
+
+.txt{
+  font-family: "Anton";
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
