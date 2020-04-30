@@ -102,26 +102,34 @@
 }
 
 /* collections section */
-.zapas-img, .verano-img, .invierno-img{
-  width: 370px;
-  height: 500px;
+.all_collection .woman_collection .woman_img{
+    overflow: hidden;
+}
+.all_collection .woman_collection .woman_img{
+    transition: all 1.5s ease;
+}
+.all_collection .woman_collection .woman_img:hover{
+    transform: scale(1.5);
 }
 
-.invierno, .invierno-img, .invierno-collection, img: hover{
-
-    transform: scale(1.2);
+.all_collection .verano_collection .verano_img{
+    overflow: hidden;
+}
+.all_collection .verano_collection .verano_img{
+    transition: all 1.5s ease;
+}
+.all_collection .verano_collection .verano_img:hover{
+    transform: scale(1.5);
 }
 
-.invierno, .invierno-collection {
-  overflow: hidden;
+.all_collection .zapatillas_collection .zapatillas_img{
+    overflow: hidden;
 }
-
-.invierno, .invierno-img, .invierno-collection, img{
-  transition: all 1.5s ease;
+.all_collection .zapatillas_collection .zapatillas_img{
+    transition: all 1.5s ease;
 }
-
-.Collections{
-  margin-top: 70px;
+.all_collection .zapatillas_collection .zapatillas_img:hover{
+    transform: scale(1.5);
 }
 
 .collection-text{
