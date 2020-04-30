@@ -100,3 +100,43 @@
   font-size: 60px;
   letter-spacing: 10px;
 }
+
+/* collections section */
+.zapas-img, .verano-img, .invierno-img{
+  width: 370px;
+  height: 500px;
+}
+
+.invierno, .invierno-img, .invierno-collection, img: hover{
+
+    transform: scale(1.2);
+}
+
+.invierno, .invierno-collection {
+  overflow: hidden;
+}
+
+.invierno, .invierno-img, .invierno-collection, img{
+  transition: all 1.5s ease;
+}
+
+.Collections{
+  margin-top: 70px;
+}
+
+.collection-text{
+  margin-bottom: 15px;
+  margin: 50px;
+}
+
+hr{
+  height: 10px;
+  width: 500px;
+  color: black;
+
+}
+
+.invierno-texto, .verano-texto, .zapatillas-texto{
+  color: black;
+  position: absolute;
+}
