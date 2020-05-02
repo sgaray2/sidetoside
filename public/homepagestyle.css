@@ -1,150 +1,92 @@
-/* header menu */
-.header_menu, .navbar-nav, .nav-link{
-  padding: 10px 10px;
-  font-size: 14px;
-  color: #000;
+.icon{
+  display: inline-block;
 }
 
-.navbar{
-  height: 120px;
+.a-icon{
+  color: black;
 }
 
-.nav-link:hover{
-  color: grey;
+.b-icon{
+  color: black;
 }
 
-.cart_count{
-  position: absolute;
-    top: 50px;
-    right: 20px;
-    color: #fff;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    display: block;
-    font-size: 13px;
-    margin-right: -22px;
-    margin-top: -5px;
-    transition: all 0.5s ease-in;
+.navbar-item, .a-1{
+  color: black;
+  padding-left: 20px;
+  margin-top: 10px;
 }
 
-/* mostrar labels en forma horizontal */
-.nav-item{
-  list-style: none;
-  color: #000;
+.b-icon{
+  padding-left: 20px;
 }
 
-/* mostrar iconos en forma horizontal */
-#icons {
-   display: flex;
-   color: #000;
-   padding-left: 0px;
+.icons{
+  margin-top: 10px;
 }
 
-
-.logo{
-  width: 130px;
-  margin-bottom: 10px;
+.navbar-nav{
+  margin-left: 0;
 }
 
-/* quitar recuadro en boton */
-.navbar-toggler:focus{
-  outline: none;
-}
+@media only screen and (max-width: 960px) {
+    .navbar-item, .a-1 {
+      padding-left: 0;
+    }
+  }
 
-/* banner section */
-.banner-section{
-  background-color: #d63447;
-  min-height: 400px;
-}
+@media only screen and (max-width: 960px) {
+      .icons, .icon {
+        padding-left: 0px;
+        margin-left: 0;
+      }
+    }
 
-.sale-img{
-  height: 550px;
-}
-
-.banner{
-  padding-left: 0px;
-}
-
-.sale{
-  background-color: #000;
-  padding: 12px 30px;
-  font-size: 15px;
-}
-
-.btn-info{
-  background-color: #000;
-  border-color: #000;
-}
-#sale-btn: hover {
-  background-color: black;
-}
-
-.banner-text{
-  margin-top: 110px;
-  font-size: 18px;
-  padding: 12px 30px;
-  letter-spacing: 4px;
-}
-
-.text-sale{
-  right: 40px;
-  font-family: "Roboto";
-
-}
-
-.txt{
-  font-family: "Anton";
-  font-weight: bold;
-  font-size: 60px;
-  letter-spacing: 10px;
-}
-
-/* collections section */
-.all_collection .woman_collection .woman_img{
-    overflow: hidden;
-}
-.all_collection .woman_collection .woman_img{
-    transition: all 1.5s ease;
-}
-.all_collection .woman_collection .woman_img:hover{
-    transform: scale(1.5);
-}
-
-.all_collection .verano_collection .verano_img{
-    overflow: hidden;
-}
-.all_collection .verano_collection .verano_img{
-    transition: all 1.5s ease;
-}
-.all_collection .verano_collection .verano_img:hover{
-    transform: scale(1.5);
-}
-
-.all_collection .zapatillas_collection .zapatillas_img{
-    overflow: hidden;
-}
-.all_collection .zapatillas_collection .zapatillas_img{
-    transition: all 1.5s ease;
-}
-.all_collection .zapatillas_collection .zapatillas_img:hover{
-    transform: scale(1.5);
-}
-
-.collection-text{
-  margin-bottom: 15px;
-  margin: 50px;
-}
+/* Only for today section */
 
 hr{
-  height: 10px;
-  width: 500px;
-  color: black;
+  width: 400px;
+}
+
+.today-text, h4{
+  font-family: 'Caveat';
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* carousel section */
+.img1{
+  height: 450px;
+  max-width: 100%;
+}
+
+.buy{
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  margin-right: 80px;
 
 }
 
-.invierno-texto, .verano-texto, .zapatillas-texto{
-  color: black;
-  position: absolute;
+.carousel-inner, .img1 {
+  margin: auto;
 }
+
+.pr{
+  margin-left: 20px;
+  margin-top: 10px;
+  color: red;
+}
+
+.btn{
+  padding: 7px;
+}
+
+h4{
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 360px) {
+      .carousel-inner{
+        width: 375px;
+      }
+    }
