@@ -1,5 +1,16 @@
+body{
+  background-color: #ececec;
+}
 .icon{
   display: inline-block;
+}
+
+#navigation-section{
+  margin-top: 25px;
+}
+
+.logos{
+  width: 120px;
 }
 
 .a-icon{
@@ -74,11 +85,12 @@ hr{
 .pr{
   margin-left: 20px;
   margin-top: 10px;
-  color: red;
+  color: #b49c73;
 }
 
 .btn{
   padding: 7px;
+  color: #565d47;
 }
 
 h4{
