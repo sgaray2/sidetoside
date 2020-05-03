@@ -1,8 +1,12 @@
 body{
-  background-color: #ececec;
+  background-color: #f4f4f4;
 }
 .icon{
   display: inline-block;
+}
+
+.navbar-toggler{
+padding: 0;
 }
 
 #navigation-section{
@@ -10,12 +14,14 @@ body{
 }
 
 .logos{
-  width: 120px;
+  width: 135px;
+  height: 40px;
 }
 
 .a-icon{
   color: black;
 }
+
 
 .b-icon{
   color: black;
@@ -25,6 +31,19 @@ body{
   color: black;
   padding-left: 20px;
   margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+#an{
+  text-decoration: none;
+}
+
+#an:hover{
+  color: gray;
+}
+
+#ic:hover{
+  color: gray;
 }
 
 .b-icon{
@@ -60,7 +79,6 @@ hr{
 
 .today-text, h4{
   font-family: 'Caveat';
-  font-style: italic;
   font-weight: bold;
 }
 
@@ -85,16 +103,17 @@ hr{
 .pr{
   margin-left: 20px;
   margin-top: 10px;
-  color: #b49c73;
+  color: #eb4559;
 }
 
 .btn{
   padding: 7px;
-  color: #565d47;
+
 }
 
 h4{
   margin-top: 6px;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 360px) {
@@ -102,3 +121,22 @@ h4{
         width: 375px;
       }
     }
+
+@media only screen and (min-width: 360px) and (max-width: 1080px) {
+  hr{
+    width: 250px;
+    }
+}
+
+.description{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.text-desc{
+  font-size: 19px;
+  font-family: "Monserrat Black";
+  font-style: italic;
+  margin-bottom: 0px;
+
+}
