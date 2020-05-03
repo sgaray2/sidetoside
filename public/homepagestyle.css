@@ -11,6 +11,7 @@ padding: 0;
 
 #navigation-section{
   margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .logos{
@@ -138,5 +139,48 @@ h4{
   font-family: "Monserrat Black";
   font-style: italic;
   margin-bottom: 0px;
+}
 
+/* Our collection section */
+.collection-section{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.col-text{
+  font-size: 25px;
+}
+
+.row{
+background-size: cover;
+margin-right: 0;
+margin-left: 0;
+}
+
+.col1{
+  padding: 0 0;
+}
+
+.img2{
+border-radius: 10px 10px;
+}
+
+.collection-desc{
+  color: #000;
+  position: absolute;
+  left: 150px;
+    top: 400px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Lobster";
+}
+
+.txt1{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+}
+.woman-collection{
+  position: relative;
 }

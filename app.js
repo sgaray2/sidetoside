@@ -36,9 +36,6 @@ app.get("/user-account.html", function(req,res){
     res.sendFile(__dirname + "/user-account.html");
 });
 
-
-
-
 app.listen(process.env.PORT, function(){
   console.log("ready");
 });
