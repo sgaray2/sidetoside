@@ -161,14 +161,11 @@ margin-left: 0;
   padding: 0 0;
 }
 
-.img2{
-border-radius: 10px 10px;
-}
 
 .collection-desc{
   color: #000;
   position: absolute;
-  left: 150px;
+  left: 240px;
     top: 400px;
     font-size: 2rem;
     font-weight: bold;
@@ -183,4 +180,45 @@ border-radius: 10px 10px;
 }
 .woman-collection{
   position: relative;
+}
+
+/* best seller section */
+.best-seller{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.row{
+  justify-content: center;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.price{
+  text-align: center;
+}
+
+.descrip{
+  color:black;
+}
+
+.descrip:hover {
+  color: grey;
+}
+
+.price: hover{
+  text-decoration: none;
+}
+
+/* footer section */
+.footer{
+  background-color: black;
+  height: 300px;
+  margin-top: 80px;
 }
