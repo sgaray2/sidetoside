@@ -11,7 +11,7 @@ padding: 0;
 
 #navigation-section{
   margin-top: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 5%;;
 }
 
 .logos{
@@ -73,7 +73,6 @@ padding: 0;
     }
 
 /* Only for today section */
-
 hr{
   width: 400px;
 }
@@ -81,6 +80,7 @@ hr{
 .today-text, h4{
   font-family: 'Caveat';
   font-weight: bold;
+  letter-spacing: 3px;
 }
 
 /* carousel section */
@@ -113,7 +113,7 @@ hr{
 }
 
 h4{
-  margin-top: 6px;
+  margin-top: 5%;
   font-size: 20px;
 }
 
@@ -136,15 +136,14 @@ h4{
 
 .text-desc{
   font-size: 19px;
-  font-family: "Monserrat Black";
-  font-style: italic;
+  font-weight: bold;
   margin-bottom: 0px;
 }
 
 /* Our collection section */
 .collection-section{
   text-align: center;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .col-text{
@@ -185,7 +184,8 @@ margin-left: 0;
 /* best seller section */
 .best-seller{
   text-align: center;
-  margin-top: 50px;
+  margin-bottom: 25px;
+
 }
 
 .row{
@@ -216,9 +216,94 @@ margin-left: 0;
   text-decoration: none;
 }
 
+.content-area{
+  position: relative;
+}
+
+.owl-dots{
+  text-align: center;
+  margin-top: 3%;
+}
+
+.owl-dot{
+  display: inline-block;
+  height: 6px !important;
+  width: 70px !important;
+  background-color: #85a392 !important;
+  opacity: 0.8;
+  margin:0 5px;
+}
+
+.owl-dot:hover{
+  background-color: black !important;
+}
+
+/* gifts and shipping section */
+#shipgift{
+  margin-top: 50px;
+}
+
+.bsd{
+  margin-right: 10%;
+}
+
+.emailbtn{
+  width: 66px;
+  height: 31px;
+  padding: 0;
+  margin-bottom: 3px;
+}
+
+.ship, .ship2, .gift2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.ship{
+  padding-top: 10px;
+}
+
+.ship2, .gift2{
+  height: 150px;
+}
+
+input{
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.pg{
+  padding: 0 10px 0 10px;
+}
+
+.pg1{
+  padding: 0 25px 0 25px;
+}
+
+.gc{
+  color: #ffacb7;
+}
+
+.env{
+  color:#d8ebb5;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1080px) {
+  .bsd{
+    margin-right: 0;
+    margin-bottom: 20px;
+    }
+}
 /* footer section */
 .footer{
-  background-color: black;
+  background-color: #000;
+  margin-top: 30px;
   height: 300px;
-  margin-top: 80px;
+}
+
+.social-media{
+  color: #fff;
+  font-size: 18px;
 }
