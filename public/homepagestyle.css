@@ -1,5 +1,7 @@
 body{
   background-color: #f4f4f4;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 .icon{
   display: inline-block;
@@ -71,6 +73,18 @@ padding: 0;
         margin-left: 0;
       }
     }
+
+@media only screen and (min-width: 360px) and (max-width: 1080px) {
+  .navbar{
+      padding-right: 0;
+      padding-left: 0;
+        }
+  .col1, .som, .som1, .som2, .img2{
+    max-width:100%;
+     overflow-x: hidden;
+     overflow-y: hidden;
+  }
+}
 
 /* Only for today section */
 hr{
@@ -164,11 +178,12 @@ margin-left: 0;
 .collection-desc{
   color: #000;
   position: absolute;
-  left: 240px;
-    top: 400px;
-    font-size: 2rem;
+  left: 160px;
+    top: 420px;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: "Lobster";
+    letter-spacing: 5px;
 }
 
 .txt1{

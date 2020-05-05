@@ -3,6 +3,16 @@ const express = require('express');
 const app= express();
 app.use(express.static("public"));
 
+function test(){
+  var test = $(document);
+  test.bind('scroll', function() {
+      // "Desactivar" el scroll horizontal
+      if (test.scrollLeft() !== 0) {
+          test.scrollLeft(0);
+      }
+  })
+};
+
 
 app.get("/", function(req,res){
   res.sendFile(__dirname + "/homepage.html");
