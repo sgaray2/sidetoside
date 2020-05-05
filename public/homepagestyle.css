@@ -354,4 +354,49 @@ input{
 
 .right{
   margin-top: 80px;
+  text-align: center;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .som1{
+      bottom: 30px;
+    }
+    .faceb{
+      text-align: center;
+    }
+
+    .input-group{
+      right: 35px;
+    }
+
+    .social-sec, .credit-cards{
+      padding-top: 15px;
+    }
+
+    #basic-addon1{
+      left: 285px;
+    }
+
+    .footer{
+      height: 380px;
+    }
+
+    .som2{
+      bottom: 35px;
+    }
+
+    .right{
+      margin-top: 20px;
+    }
+
+    .sm1{
+      margin-left: 0;
+      margin-right: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #basic-addon1{
+      left: 460px;
+      }
+    }
