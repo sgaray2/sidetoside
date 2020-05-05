@@ -303,7 +303,55 @@ input{
   height: 300px;
 }
 
-.social-media{
+.social-media, {
   color: #fff;
   font-size: 18px;
+}
+
+.sm1{
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.sm2{
+  font-size: 12px;
+  color: #fff;
+}
+
+.email2{
+  margin-right: 0;
+  width: 235px;
+}
+
+#basic-addon1{
+  position: absolute;
+  left: 300px;
+}
+
+.sec{
+  top:20px;
+}
+
+.social-sec, .social-media, .credit-cards{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.input-group{
+  justify-content: center;
+}
+
+.cc{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.rights{
+  color: #fff;
+}
+
+.right{
+  margin-top: 80px;
 }
