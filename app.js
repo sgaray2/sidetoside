@@ -50,6 +50,6 @@ app.get("/product-details.html", function(req,res){
     res.sendFile(__dirname + "/product-details.html");
 });
 
-app.listen(process.env.PORT, function(){
+app.listen(3000, function(){
   console.log("ready");
 });
