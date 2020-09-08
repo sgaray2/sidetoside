@@ -4,3 +4,5 @@ The backend was created from scratch using Node JS and Express as a framework.
 
 Finally I used Heroku App, to deploy my website and to see it through the WWW, refer here (https://sidetoside2.herokuapp.com/) to go
 to my website :)
+
+NOTE: this project is only to practice the frontend design.
